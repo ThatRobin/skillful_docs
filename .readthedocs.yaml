@@ -1,0 +1,13 @@
+# Required
+version: 2
+
+submodules:
+    include: all
+
+mkdocs:
+  configuration: mkdocs.yml
+
+python:
+   version: 3.7
+   install:
+   - requirements: requirements.txt

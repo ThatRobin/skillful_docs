@@ -1,0 +1,43 @@
+site_name: Skillful
+
+nav:
+    - Home: index.md
+    - Universal Powers: universal_powers.md
+    - Actions:
+        - Entity Actions:
+            - Open Choice Screen: entity_actions/open_choice_screen.md
+    - Types:
+        - Data Types: data_types.md
+        - Additional Power Data: additional_power_data.md
+        - Skill Tree JSON: skill_tree_json.md
+
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+separator: '_'
+plugins:
+  - search
+  - mermaid2:
+      version: 8.6.4
+      arguments:
+          theme: 'neutral'
+
+markdown_extensions:
+    - admonition
+
+extra_javascript:
+    - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
