@@ -2,7 +2,6 @@ site_name: Skillful
 
 nav:
     - Home: index.md
-    - Universal Powers: universal_powers.md
     - Actions:
         - Entity Actions:
             - Open Choice Screen: entity_actions/open_choice_screen.md
