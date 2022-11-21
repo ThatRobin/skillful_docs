@@ -11,6 +11,8 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Object](data_types/object.md)
 * [String](data_types/string.md)
 
-## Apoli-specific
+## Other
 
 * [Identifier](data_types/identifier.md)
+* [Item Stack](data_types/item_stack.md)
+* [Key](data_types/key.md)
