@@ -1,5 +1,9 @@
 # List of Keys
 
+!!! note
+
+    These can NOT be used as Apoli Keybinds. These are used in [Key Bindings](../keybinding.md) to create keys that can be used as Apoli Keybinds.
+
 Key                    | 
 -----------------------|
 `key.keyboard.unknown` |
