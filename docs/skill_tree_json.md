@@ -14,7 +14,7 @@ Field  | Type | Default | Description
 `parent` | [Identifier](data_types/identifier.md) | _optional_ | The skill identifier that will be the parent of this widget.
 `default_powers` | [Array](data_types/array.md) of [Identifiers](data_types/identifier.md) | _optional_ | IDs of the powers this tree will grant when the player joins the game. Will not be read if a `parent` exists.
 `background` | [Identifier](data_types/identifier.md) | _optional_ | The ID of the texture that will be the background of the skill tree.
-`condition` | [Condition](data_types/entity_condition.md) | _optional_ | Makes it so that the player can only buy the skill if they meet this condition.
+`condition` | [Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | _optional_ | Makes it so that the player can only buy the skill if they meet this condition.
 `cost` | [Integer](data_types/integer.md) | _optional_ | The amount of points that the player needs in order to purchase this skill.
 
 ### Example
