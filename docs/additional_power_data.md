@@ -9,7 +9,7 @@ Field  | Type | Default | Description
 `icon` | [Identifier](data_types/identifier.md) | _optional_ | The item which is displayed as the icon for the skill widget.
 `parent` | [Identifier](data_types/identifier.md) | _optional_ | The skill identifier that will be the parent of this widget.
 `background` | [Identifier](data_types/identifier.md) | _optional_ | The ID of the texture that will be the background of the skill tree.
-`condition` | [Condition](data_types/entity_condition.md) | _optional_ | Makes it so that the player can only buy the skill if they meet this condition.
+`condition` | [Condition](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | _optional_ | Makes it so that the player can only buy the skill if they meet this condition.
 `cost` | [Integer](data_types/integer.md) | _optional_ | The amount of points that the player needs in order to purchase this skill.
 
 ### Example
