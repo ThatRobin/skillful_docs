@@ -21,7 +21,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-	"icon": "minecraft:stick",
+	"icon": {
+		"item": "minecraft:stick"
+	},
 	"name": "Parkour Skills",
 	"description": "A skill tree that lets you earn parkour skills",
 	"power": "example_pack:gain_points",

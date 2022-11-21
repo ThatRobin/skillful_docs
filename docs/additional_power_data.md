@@ -17,7 +17,9 @@ Field  | Type | Default | Description
 ```json
 {
 	"skill": {
-        "icon": "minecraft:feather",
+        "icon": {
+            "item": "minecraft:feather"
+        },
         "parent": "example_pack:skill_tree",
         "cost": 1
     }
